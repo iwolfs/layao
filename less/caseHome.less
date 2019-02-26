@@ -1,0 +1,73 @@
+@caseHome: case-home;
+.@{caseHome}-wrapper {
+  background-color: #fafafa;
+  min-height: 720px;
+  .@{caseHome} {
+    >p {
+      text-align: center;
+    }
+    &-img-wrapper {
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      .block {
+        margin-bottom: 24px;
+        .@{caseHome}-block-content {
+          display: block;
+          background: #fff;
+          border-radius: 4px;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          .page-pro();
+          border: none;
+          transition: box-shadow .3s @ease-out, transform .3s @ease-out;
+          & > span {
+            width: 100%;
+            height: 250px;
+            display: block;
+            background: @line-color;
+            // padding: 5%;
+
+            & > img {
+              width: 100%;
+            }
+          }
+          & p {
+            width: 100%;
+            line-height: 30px;
+          }
+          &:hover {
+            & p {
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{caseHome}-wrapper {
+    height: 2000px;
+    overflow: hidden;
+    .@{caseHome} {
+      ul {
+        li {
+          display: block;
+          width: 100%;
+          padding: 2%;
+          span {
+            height: 168px;
+          }
+          p {
+            position: relative;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nextProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jerry lang",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "antd": "^3.13.2",
+    "enquire-js": "^0.2.1",
+    "less": "^3.9.0",
+    "next": "^8.0.1",
+    "rc-banner-anim": "^2.2.2",
+    "rc-queue-anim": "^1.6.11",
+    "rc-scroll-anim": "^2.5.6",
+    "rc-tween-one": "^2.3.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
