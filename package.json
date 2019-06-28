@@ -20,8 +20,8 @@
   },
   "scripts": {
     "dev": "next -p 80",
-    "build": "next build",
+    "build": "export NODE_ENV='production' && next build",
     "start": "next start -p 80",
-    "export": "npm run build && next export"
+    "export": "export NODE_ENV='production' && npm run build && next export"
   }
 }
