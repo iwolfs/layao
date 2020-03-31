@@ -10,7 +10,7 @@
     "antd": "^3.13.2",
     "enquire-js": "^0.2.1",
     "less": "^3.9.0",
-    "next": "^8.0.1",
+    "next": "^9.3.2",
     "rc-banner-anim": "^2.2.2",
     "rc-queue-anim": "^1.6.11",
     "rc-scroll-anim": "^2.5.6",
